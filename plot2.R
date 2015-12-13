@@ -1,3 +1,5 @@
+Sys.setlocale("LC_ALL","English")
+
 download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip","data.zip")
 unzip("data.zip")
 rowscount = 100000 #enough for 2007-02-01 and 2007-02-02
